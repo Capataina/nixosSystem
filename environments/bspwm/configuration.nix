@@ -4,12 +4,15 @@
 
 { config, pkgs, inputs, ... }:
 
+let
+  nixos = ../..;
+in
 {
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
-      # ./AllPackages/systeminfofetchers.nix
+      "${nixos}/AllPackages/systeminfofetchers.nix"
       # ./AllPackages/terminals.nix
     ];
 
