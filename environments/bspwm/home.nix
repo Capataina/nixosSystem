@@ -9,6 +9,10 @@ in
   home.username = "capataina";
   home.homeDirectory = "/home/capataina";
 
+  imports = [
+    "${allPackages}/terminals.nix"
+  ];
+
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
@@ -46,7 +50,7 @@ in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
     # ".screenrc".source = dotfiles/screenrc;
-    ".config/alacritty/alacritty.toml".source = "${allPackages}/dotconfigs/alacritty.toml";
+    # ".config/alacritty/alacritty.toml".source = "${allPackages}/dotconfigs/alacritty.toml";
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''
     #   org.gradle.console=verbose

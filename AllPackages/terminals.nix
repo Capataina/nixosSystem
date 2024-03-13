@@ -1,10 +1,11 @@
 {config, pkgs, ...}:
 
 {
-   imports = [
-     ./dotconfigs/alacritty.nix
-   ];
 
    programs.alacritty.enable = true;
+
+   home.file = {
+   ".config/alacritty/alacritty.toml".source = ./dotconfigs/alacritty.toml;
+   };
 
 }
