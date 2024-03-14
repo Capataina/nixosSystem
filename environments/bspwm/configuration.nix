@@ -125,6 +125,7 @@ in
     starship
     dconf
     gnome.nautilus
+    tracker
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
