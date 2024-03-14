@@ -123,6 +123,8 @@ in
     nerdfonts
     picom
     starship
+    dconf
+    gnome.nautilus
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
