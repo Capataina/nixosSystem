@@ -11,7 +11,7 @@ in
 
   imports = [
     "${allPackages}/terminals.nix"
-    "${allPackages}/majorToolkits.nix"
+    # "${allPackages}/majorToolkits.nix"
   ];
 
   # This value determines the Home Manager release that your configuration is
@@ -50,8 +50,7 @@ in
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
-    # ".screenrc".source = dotfiles/screenrc;
-    # ".config/alacritty/alacritty.toml".source = "${allPackages}/dotconfigs/alacritty.toml";
+
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''
     #   org.gradle.console=verbose
