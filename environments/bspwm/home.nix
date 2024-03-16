@@ -11,7 +11,7 @@ in
 
   imports = [
     "${allPackages}/terminals.nix"
-    # "${allPackages}/majorToolkits.nix"
+    "${allPackages}/majorToolkits.nix"
   ];
 
   # This value determines the Home Manager release that your configuration is
@@ -29,8 +29,6 @@ in
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
-    
-    pkgs.vscode
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the

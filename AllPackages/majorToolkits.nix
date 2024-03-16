@@ -3,7 +3,20 @@
 {
 
   gtk.enable = true;
-  # qt.enable = true;
+  qt.enable = true;
+
+  dconf = {
+    enable = true;
+    settings = {
+      "org/gnome/desktop/interface" = {
+        color-scheme = "prefer-dark";
+        gtk-theme = "Catppuccin-Mocha-Compact-Pink-Dark";
+      };
+
+    };
+
+
+  };
 
   gtk.theme = {
 
@@ -16,6 +29,10 @@
 
   home.packages = [
     pkgs.gnome.gnome-themes-extra
+    pkgs.libadwaita
+    pkgs.dconf
+    pkgs.tracker
+    pkgs.catppuccin-gtk
   ];
 
   xdg.configFile = {

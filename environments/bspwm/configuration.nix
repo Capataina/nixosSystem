@@ -16,8 +16,6 @@ in
       # ./AllPackages/terminals.nix
     ];
 
-
-
   # Bootloader.
   boot.loader.grub.enable = true;
   boot.loader.grub.device = "/dev/sda";
@@ -72,12 +70,8 @@ in
     windowManager.bspwm.enable = true;
   };
 
-
-
-
   programs = {
     starship.enable = true;
-    # starship.settings = pkgs.lib.importTOML /home/capataina/.config/starship.toml;
     fish.enable = true;
     fish.interactiveShellInit = ''
     starship init fish | source
@@ -127,9 +121,8 @@ in
     nerdfonts
     picom
     starship
-    dconf
     gnome.nautilus
-    tracker
+    xfce.thunar
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
