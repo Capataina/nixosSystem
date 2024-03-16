@@ -124,6 +124,3 @@ super + {Left,Down,Up,Right}
 super + r
 	firefox
 
-# Launch Thunar
-super + e
-	thunar
