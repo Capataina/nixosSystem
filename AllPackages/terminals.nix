@@ -3,11 +3,6 @@
 {
 
    programs.alacritty.enable = true;
-   programs.starship.enable = true;
-
-   programs.fish = {
-      enable = true;
-   };
 
    home.file = {
    ".config/alacritty/alacritty.toml".source = ./dotconfigs/alacritty.toml;
