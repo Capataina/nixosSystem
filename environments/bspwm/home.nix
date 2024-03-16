@@ -12,6 +12,7 @@ in
   imports = [
     "${allPackages}/terminals.nix"
     "${allPackages}/majorToolkits.nix"
+    "${allPackages}/bspwm.nix"
   ];
 
   # This value determines the Home Manager release that your configuration is

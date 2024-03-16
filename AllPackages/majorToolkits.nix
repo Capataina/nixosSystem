@@ -12,10 +12,7 @@
         color-scheme = "prefer-dark";
         gtk-theme = "Catppuccin-Mocha-Compact-Pink-Dark";
       };
-
     };
-
-
   };
 
   gtk.theme = {
