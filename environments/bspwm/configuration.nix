@@ -16,6 +16,8 @@ in
       # ./AllPackages/terminals.nix
     ];
 
+
+
   # Bootloader.
   boot.loader.grub.enable = true;
   boot.loader.grub.device = "/dev/sda";
@@ -69,6 +71,9 @@ in
         };
     windowManager.bspwm.enable = true;
   };
+
+
+
 
   programs = {
     starship.enable = true;
