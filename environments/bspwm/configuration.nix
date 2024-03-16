@@ -118,7 +118,6 @@ in
     sxhkd
     alacritty
     firefox
-    vscode
     polybarFull
     nerdfonts
     picom
