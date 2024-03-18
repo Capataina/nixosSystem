@@ -92,8 +92,8 @@ in
     userSettings = {
       "workbench.colorTheme" = "Catppuccin Mocha";
       "catppuccin.accentColor" = "lavender";
-      "editor.semanticHighlighting.enabled" = "true";
-      "terminal.integrated.minimumContrastRatio" = "1";
+      "editor.semanticHighlighting.enabled" = true;
+      "terminal.integrated.minimumContrastRatio" = 1;
       "window.titleBarStyle" = "custom";
       "editor.fontFamily" = "'Hack Nerd Font', monospace";
       "terminal.integrated.fontFamily" = "'Hack Nerd Font', monospace";
