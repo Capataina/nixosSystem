@@ -31,6 +31,7 @@
     pkgs.libadwaita
     pkgs.dconf
     pkgs.tracker
+    pkgs.tracker-miners
     pkgs.catppuccin-gtk
   ];
 
