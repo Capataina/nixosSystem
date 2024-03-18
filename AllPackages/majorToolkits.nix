@@ -10,15 +10,17 @@
     settings = {
       "org/gnome/desktop/interface" = {
         color-scheme = "prefer-dark";
-        gtk-theme = "Catppuccin-Mocha-Compact-Pink-Dark";
+        gtk-theme = "Catppuccin-Mocha-Standard-Lavender-Dark";
       };
     };
   };
 
   gtk.theme = {
 
-    name = "Catppuccin-Mocha-Compact-Pink-Dark";
+    name = "Catppuccin-Mocha-Standard-Lavender-Dark";
     package = pkgs.catppuccin-gtk.override {
+      accents = [ "lavender" ];
+      size = "standard";
       variant = "mocha";
     };
   
