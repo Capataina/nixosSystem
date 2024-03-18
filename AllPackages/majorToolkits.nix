@@ -3,7 +3,10 @@
 {
 
   gtk.enable = true;
-  qt.enable = true;
+  qt = {
+    enable = true;
+    platformTheme = "gtk";
+  };
 
   dconf = {
     enable = true;

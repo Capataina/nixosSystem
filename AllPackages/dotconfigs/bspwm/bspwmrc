@@ -24,4 +24,4 @@ sxhkd &
 picom --config $HOME/.config/picom/picom.conf &
 # dunst &
 polybar &
-# feh --bg-scale $HOME/.config/background-catppuccin-flower.png &
+feh --bg-scale /etc/nixos/AllPackages/Pinkish-Blue-Sky.jpg &
