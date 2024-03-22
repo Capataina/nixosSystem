@@ -2,6 +2,6 @@
 
 {
 
+  programs.nixvim.enable = true;
 
-    
 }

@@ -24,7 +24,13 @@
           modules = [
             ./environments/bspwm/configuration.nix
             inputs.home-manager.nixosModules.default
-            # inputs.nixvim.nixosModules.nixvim
+            {
+              home-manager.users.capataina = {
+                imports = [
+                  inputs.nixvim.homeManagerModules.nixvim
+                ];
+              };
+            }
           ];
         };
     };  

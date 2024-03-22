@@ -79,7 +79,7 @@ in
     # EDITOR = "emacs";
   };
 
-  # programs.nixvim.enable = true;
+  programs.nixvim.enable = true;
 
   # Let Home Manager install and manage itself.
   nixpkgs.config.allowUnfree = true;
