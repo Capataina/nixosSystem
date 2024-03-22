@@ -6,6 +6,7 @@
 
     ./modules/vscode.nix
 
+
    ];
 
 }
