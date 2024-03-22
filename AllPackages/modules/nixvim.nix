@@ -8,6 +8,6 @@
     vimAlias = true;
     colorschemes.gruvbox.enable = true;
 
-  }
+  };
 
 }

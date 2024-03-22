@@ -5,7 +5,7 @@
    imports = [
 
     ./modules/vscode.nix
-
+    ./modules/nixvim.nix
 
    ];
 
